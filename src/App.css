@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +38,47 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container{
+  background-image: url('./images/bg.jpg');
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+
+.color_button{
+  background: rgb(45, 154, 255);
+  color:#fff;
+  width: 10rem;
+
+padding: 1rem;
+  font-size: 1.3rem;
+  letter-spacing: .06rem;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  margin-bottom: 3rem;
+  transition: all 0.9s;
+  font-family: 'Courgette', cursive;
+  cursor: pointer;
+}
+h1{
+  color: #fff;
+  font-size: 2rem !important;
+}
+
+h2{
+  font-family: 'Courgette', cursive;
+ color:rgb(255, 255, 255);
+  letter-spacing: .06rem;
+}
+
+.portfolio_link{
+text-decoration: none;
+color:rgb(255, 171, 36);
 }
